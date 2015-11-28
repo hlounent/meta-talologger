@@ -1,0 +1,10 @@
+[Unit]
+Description=taloLogger
+
+[Service]
+User=talo
+Environment=PYTHONPATH="/usr/share/taloLogger"
+ExecStart=/usr/bin/taloLogger
+SyslogIdentifier=taloLogger
+StandardOutput=journal
+StandardError=journal
