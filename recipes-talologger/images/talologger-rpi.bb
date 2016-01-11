@@ -8,5 +8,6 @@ IMAGE_INSTALL += "\
     log-config \
     network-config \
     talologger \
+    talologgergraph \
     time-config \
 "
