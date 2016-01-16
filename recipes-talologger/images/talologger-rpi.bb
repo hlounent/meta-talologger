@@ -5,4 +5,5 @@ IMAGE_FEATURES += "\
 "
 
 IMAGE_INSTALL += "\
+    talologger \
 "
