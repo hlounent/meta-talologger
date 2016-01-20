@@ -5,6 +5,7 @@ IMAGE_FEATURES += "\
 "
 
 IMAGE_INSTALL += "\
+    log-config \
     network-config \
     talologger \
     time-config \
