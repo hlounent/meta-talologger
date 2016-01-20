@@ -5,5 +5,6 @@ IMAGE_FEATURES += "\
 "
 
 IMAGE_INSTALL += "\
+    network-config \
     talologger \
 "
