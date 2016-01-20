@@ -1,0 +1,6 @@
+[Match]
+Name=eth0
+
+[Network]
+Description=Local area network using DHCP
+DHCP=yes
