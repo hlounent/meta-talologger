@@ -1,0 +1,18 @@
+* Fix QA Issue: talologger:
+  /talologger/usr/share/taloLogger/modules/datasources/shell/shellSource.py is
+  owned by gid 1000, which is the same as the user running bitbake. This may be
+  due to host contamination [host-user-contaminated]
+* Make NTP server customizable
+* Include proper tzdata packages in time-config.bb based on the configured
+  timezone or simply include them all
+* Add a "service" user
+* Create a partition for persistent data
+* Create a partition for logs and specify journald space limits
+* Create a spare system partition to enable installing a new rootfs on a live
+  system
+* Add dialeye
+* Add a package feed
+* Group e.g logging and graphing related packages into their own package groups
+* Move python into a virtual environment
+* Make d3js recipe independent of the taloLoggerGraph recipe
+* Change php-fpm to use a Unix domain socket instead of an IP socket
