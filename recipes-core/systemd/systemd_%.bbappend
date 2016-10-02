@@ -1,1 +1,1 @@
-PACKAGECONFIG += "networkd resolved"
+PACKAGECONFIG += "networkd resolved timesyncd"
