@@ -1,4 +1,5 @@
 require talologgergraph.inc
+require recipes-talologger/talologger/talo.inc
 
 SUMMARY = "taloLogger home automation data graphing"
 DESCRIPTION = "\
