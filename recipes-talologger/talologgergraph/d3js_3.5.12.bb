@@ -3,6 +3,7 @@
 # this without a dependency on talologger?
 
 require talologgergraph.inc
+require recipes-talologger/talologger/talo.inc
 
 SUMMARY = "D3.js is a JavaScript library for manipulating documents based on data"
 DESCRIPTION = "\
