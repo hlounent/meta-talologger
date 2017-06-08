@@ -1,3 +1,5 @@
+require talo.inc
+
 SUMMARY = "taloLogger home automation data collector"
 DESCRIPTION = "\
     taloLogger is an application developed to periodically retrieve house \
@@ -18,11 +20,6 @@ SRC_URI[md5sum] = "c92217f59d3a2136b0a51ca56062a82f"
 SRC_URI[sha256sum] = "ad7c472af4f0399364622fc6808445aa071225fcc828eb4ef28846138f994204"
 
 S = "${WORKDIR}/taloLogger"
-
-inherit useradd
-
-USERADD_PACKAGES = "${PN}"
-USERADD_PARAM_${PN} = "--system --groups dialout talo"
 
 do_install() {
     # TODO: Why cannot ExecStart=python taloLogger.py ...?
