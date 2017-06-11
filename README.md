@@ -49,7 +49,7 @@ BBLAYERS ?= " \
 
 The generated image can / should be customized using the following variables e.g. in local.conf:
 
-* `TALOLOGGER_SYSTEM_TIMEZONE`: the desired timezone. Will be used to set the system timezone (`/etc/localtime`) and the PHP `date.timezone` configuration option. An example: `Europe/Helsinki`. The default: `UTC`.
+* `DEFAULT_TIMEZONE`: the desired timezone. Will be used to set the system timezone (`/etc/localtime`) and the PHP `date.timezone` configuration option. An example: `Europe/Helsinki`. The default: `UTC`.
 * `hostname_pn-base-files`: the desired hostname. See the [Yocto manual](http://www.yoctoproject.org/docs/latest/mega-manual/mega-manual.html#usingpoky-extend-customimage-image-name) for more information.
 
 An example of items to be added to local.conf:
