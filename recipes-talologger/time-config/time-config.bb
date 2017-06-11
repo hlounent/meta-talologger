@@ -19,13 +19,7 @@ inherit systemd
 
 systemd_timesyncd_confdir = "/usr/lib/systemd/timesyncd.conf.d"
 
-TALOLOGGER_SYSTEM_TIMEZONE ?= "UTC"
-
 do_install() {
-    # Set the timezone
-    install -d -m755 ${D}${sysconfdir}
-    ln -s ${datadir}/zoneinfo/${TALOLOGGER_SYSTEM_TIMEZONE} ${D}${sysconfdir}/localtime
-
     # Set up systemd-timesyncd
     install -d -m755 ${D}${systemd_timesyncd_confdir}
     install -m644 00-ntp.conf ${D}${systemd_timesyncd_confdir}/
