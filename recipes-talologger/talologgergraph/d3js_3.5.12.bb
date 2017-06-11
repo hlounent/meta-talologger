@@ -33,6 +33,7 @@ S = "${WORKDIR}"
 d3js_libdir = "${talologger_wwwdatadir}/js"
 
 do_install() {
+    install -d -g www-data -m755 ${D}${talologger_wwwdatadir}
     install -d -g www-data -m755 ${D}${talologger_servicedir}
 
     install -d -g www-data -m755 ${D}${d3js_libdir}
