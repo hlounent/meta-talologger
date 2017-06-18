@@ -30,7 +30,7 @@ Additionally some recipes have been imported from other layers in order to avoid
 
 # Building
 
-Set up your Yocto build environment. See [Yocto Project Quick Start](http://www.yoctoproject.org/docs/2.0/yocto-project-qs/yocto-project-qs.html) for more information.
+Set up your Yocto build environment. See [Yocto Project Quick Start](http://www.yoctoproject.org/docs/latest/yocto-project-qs/yocto-project-qs.html) for more information.
 
 Add the dependencies to your `bblayers.conf`:
 
