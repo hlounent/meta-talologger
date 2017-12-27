@@ -12,12 +12,12 @@ LICENSE = "taloLogger"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=b3cf26fd49c5f0cbb300ab5539487456"
 
 SRC_URI = "\
-    http://olammi.iki.fi/sw/taloLogger/taloLogger_v17h.zip \
+    http://olammi.iki.fi/sw/taloLogger/taloLogger_v17j.zip \
     file://taloLogger.service \
     file://taloLogger.sh \
 "
-SRC_URI[md5sum] = "c92217f59d3a2136b0a51ca56062a82f"
-SRC_URI[sha256sum] = "ad7c472af4f0399364622fc6808445aa071225fcc828eb4ef28846138f994204"
+SRC_URI[md5sum] = "35c7c865f25c0237d75f152b0d2de0b6"
+SRC_URI[sha256sum] = "d94458fa28112f31c80cfea0ce6ce40e065e0db2feb169d67c68d9dae025f09d"
 
 S = "${WORKDIR}/taloLogger"
 
