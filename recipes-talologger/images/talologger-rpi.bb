@@ -1,4 +1,4 @@
-require recipes-core/images/rpi-hwup-image.bb
+require recipes-core/images/core-image-minimal.bb
 
 IMAGE_FEATURES_append = " \
     ssh-server-dropbear \
